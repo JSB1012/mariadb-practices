@@ -3,7 +3,7 @@ package test;
 public class DepartmentVo {
 	private Long no;
 	private String name;
-	
+
 	public Long getNo() {
 		return no;
 	}
@@ -16,6 +16,9 @@ public class DepartmentVo {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 
+	@Override
+	public String toString() {
+		return "DepartmentVo [no=" + no + ", name=" + name + "]";
+	}
 }
