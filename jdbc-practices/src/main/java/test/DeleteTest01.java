@@ -8,9 +8,13 @@ import java.sql.Statement;
 public class DeleteTest01 {
 
 	public static void main(String[] args) {
-		delete(5L);
-		delete(6L);
-		delete(7L);
+		delete(19L);
+		delete(20L);
+//		delete(14L);
+//		delete(15L);
+//		delete(16L);
+//		delete(17L);
+//		delete(18L);
 	}
 
 	private static boolean delete(Long no) {
