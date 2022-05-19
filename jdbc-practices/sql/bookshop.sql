@@ -16,7 +16,7 @@ select * from author;
 -- insert into book values(null, '....', '재고있음', 1);
 
 -- BookDao:findAll
-  select a.no, a.title, n.name, a.state_code
+  select a.no, a.title, b.name, a.state_code
     from book a, author b
    where a.author_no = b.no
 order by no asc; 
