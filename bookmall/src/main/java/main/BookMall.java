@@ -98,7 +98,7 @@ public class BookMall {
 		}
 		System.out.println();
 		
-		System.out.println("─ 주문 목록 ────────────────────────────────────");
+		System.out.println("─ 계산 목록 ────────────────────────────────────");
 		List<OrderVo> list = new OrderDao().findAll();
 		for (OrderVo vo : list) {
 			System.out.println(vo);
